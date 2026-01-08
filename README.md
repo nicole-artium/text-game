@@ -24,6 +24,26 @@ npm start
 
 Frontend runs at http://localhost:3000
 
+## Running Tests
+
+### Backend Tests
+
+```bash
+cd backend
+python3 -m pytest tests/ -v
+```
+
+9 tests covering API endpoints, Player model, and Item model.
+
+### Frontend Tests
+
+```bash
+cd frontend
+npm test
+```
+
+Press `a` to run all tests, or `q` to quit watch mode.
+
 ## Database
 
 SQLite database (game.db) is created automatically on first backend run.
